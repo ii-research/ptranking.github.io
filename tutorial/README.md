@@ -6,6 +6,7 @@
 
 ## Preparing the development environment
 macOS Catalina 10.15.6 CPU version
+
 ```
 brew install cmake
 brew install libomp
@@ -19,6 +20,7 @@ sudo make install
 [LightGBM/examples/lambdarank](https://github.com/microsoft/LightGBM/tree/master/examples/lambdarank)
 
 cd to the examples/lambdarank directory and execute
+
 ```
 # Training
 "../../lightgbm" config=train.conf
@@ -26,6 +28,7 @@ cd to the examples/lambdarank directory and execute
 "../../lightgbm" config=predict.conf
 ```
 Training results:
+
 ```
 $ "../../lightgbm" config=train.conf  
 [LightGBM] [Info] Finished loading parameters
@@ -46,7 +49,7 @@ You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Iteration:1, valid_1 ndcg@3 : 0.511721
 [LightGBM] [Info] Iteration:1, valid_1 ndcg@5 : 0.565374
 [LightGBM] [Info] 0.003292 seconds elapsed, finished iteration 1
-.....
+...
 
 [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 [LightGBM] [Info] Iteration:99, training ndcg@1 : 0.994504
@@ -148,6 +151,7 @@ The task is focused on analyzing the source code here.
         - double max_sigmoid_input_ = 50;  /*! \brief Maximal input of sigmoid table */
         - double sigmoid_table_idx_factor_;  /*! \brief Factor that covert score to bin in sigmoid table */
 ## First noob loss function
+
 ```
 $ lightgbm config=/Users/kou2n/Projects/LightGBM/examples/gyndcg/train.conf
 [LightGBM] [Info] Finished loading parameters
