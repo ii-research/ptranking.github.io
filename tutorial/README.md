@@ -9,7 +9,7 @@ macOS Catalina 10.15.6 CPU version
 ```
 brew install cmake
 brew install libomp
-git clone --recursive https://github.com/ii-research/ptranking.github.io.git ; cd ptranking.github.io
+git clone --recursive https://github.com/ii-research/ptranking.github.io.git ; cd ptranking.github.io/tutorial
 mkdir build ; cd build
 cmake ..
 make -j4
