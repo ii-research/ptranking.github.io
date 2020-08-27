@@ -27,7 +27,6 @@ cd to the examples/lambdarank directory and execute
 ```
 Training results:
 ```
-# kou2n @ MacBook-Pro-2 in ~/Projects/LightGBM/examples/lambdarank on git:master x [17:23:58] 
 $ "../../lightgbm" config=train.conf  
 [LightGBM] [Info] Finished loading parameters
 [LightGBM] [Info] Loading query boundaries...
