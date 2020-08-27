@@ -15,17 +15,17 @@ cmake ..
 make -j4
 sudo make install
 ```
-## 测试源码提供的例子
+## Testing examples provided by the source code
 [LightGBM/examples/lambdarank](https://github.com/microsoft/LightGBM/tree/master/examples/lambdarank)
 
-cd到examples/lambdarank目录下，执行
+cd to the examples/lambdarank directory and execute
 ```
 # Training
 "../../lightgbm" config=train.conf
 # Prediction
 "../../lightgbm" config=predict.conf
 ```
-Training的结果:
+Training results:
 ```
 # kou2n @ MacBook-Pro-2 in ~/Projects/LightGBM/examples/lambdarank on git:master x [17:23:58] 
 $ "../../lightgbm" config=train.conf  
@@ -67,13 +67,15 @@ You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] 0.679780 seconds elapsed, finished iteration 100
 [LightGBM] [Info] Finished training
 ```
-train.conf文件中objective = lambdarank。如果自定义损失函数，需要修改此处。
-## 核心损失函数
+In the train.conf file:objective = lambdarank.
+If you want to customize the loss function, you need to change this.
+## Core loss function
 [LightGBM/src/objective/rank_objective.hpp](https://github.com/microsoft/LightGBM/blob/master/src/objective/rank_objective.hppf)
 
-任务重点是分析这里的源码。
-* RankingObjective类: class RankingObjective : public ObjectiveFunction {}
-    - public方法
+The task is focused on analyzing the source code here.
+
+* RankingObjective Class: class RankingObjective : public ObjectiveFunction {}
+    - public methods
         - void Init(const Metadata& metadata, data_size_t num_data)
             - num_data_
             - label_
@@ -81,13 +83,13 @@ train.conf文件中objective = lambdarank。如果自定义损失函数，需要
             - query_boundaries_
             - num_queries_
             
-            不需要自己实现。
+            No need to implement it yourself.
         - void GetGradients(
                     const double* score, 
                     score_t* gradients,
                     score_t* hessians)
 
-            不需要自己实现。
+            No need to implement it yourself.
         - virtual void GetGradientsForOneQuery(
                         data_size_t query_id, 
                         data_size_t cnt,
@@ -95,19 +97,19 @@ train.conf文件中objective = lambdarank。如果自定义损失函数，需要
                         const double* score, score_t* lambdas,
                         score_t* hessians) const = 0;
         
-            定义虚函数，具体方法需要自己实现。
+            Define a virtual function, you need to implement it yourself.
 
-            自定义函数关键是实现GetGradientsForOneQuery方法。
+            The key to customizing the loss function is to implement the GetGradientsForOneQuery method.
         - const char* GetName() const override { return "gyrank"; }
 
-            需要自己实现。
+            It needs to be implemented on its own.
         - std::string ToString() const override {} 
 
-            暂时不用管。
+            It needs to be implemented on its own.
         - bool NeedAccuratePrediction() const override { return false; }
 
-            暂时不用管。
-    - protected 数据成员
+            It needs to be implemented on its own.
+    - protected data members
         - int seed_;
         - data_size_t num_queries_;  /*! \brief Number of data */ 
         - data_size_t num_data_;  /*! \brief Pointer of label */
@@ -115,8 +117,8 @@ train.conf文件中objective = lambdarank。如果自定义损失函数，需要
         - const label_t* weights_;  /*! \brief Query boundries */
         - const data_size_t* query_boundaries_;
 
-* LambdarankNDCG类: class LambdarankNDCG : public RankingObjective {}
-    - public方法
+* LambdarankNDCG Class: class LambdarankNDCG : public RankingObjective {}
+    - public methods
         - void Init(const Metadata& metadata, data_size_t num_data)
             - RankingObjective::Init(metadata, num_data);
             - DCGCalculator::CheckLabel(label_, num_data_);
@@ -135,7 +137,7 @@ train.conf文件中objective = lambdarank。如果自定义损失函数，需要
             construct sigmoid table to speed up sigmoid transform
 
         - const char* GetName() const override { return "lambdarank"; }
-    - private 数据成员
+    - private data members
         - double sigmoid_;  /*! \brief Simgoid param */
         - bool norm_;  /*! \brief Normalize the lambdas or not */
         - int truncation_level_;   /*! \brief Truncation position for max DCG */
@@ -146,7 +148,7 @@ train.conf文件中objective = lambdarank。如果自定义损失函数，需要
         - double min_sigmoid_input_ = -50;  /*! \brief Minimal input of sigmoid table */
         - double max_sigmoid_input_ = 50;  /*! \brief Maximal input of sigmoid table */
         - double sigmoid_table_idx_factor_;  /*! \brief Factor that covert score to bin in sigmoid table */
-## 第一个测试损失函数
+## First noob loss function
 ```
 $ lightgbm config=/Users/kou2n/Projects/LightGBM/examples/gyndcg/train.conf
 [LightGBM] [Info] Finished loading parameters
