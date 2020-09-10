@@ -14,7 +14,6 @@ git clone --recursive https://github.com/ii-research/ptranking.github.io.git ; c
 mkdir build ; cd build
 cmake ..
 make -j4
-sudo make install
 ```
 ## Testing examples provided by the source code
 [LightGBM/examples/lambdarank](https://github.com/microsoft/LightGBM/tree/master/examples/lambdarank)
@@ -114,10 +113,10 @@ The task is focused on analyzing the source code here.
     - protected data members
         - int seed_;
         - data_size_t num_queries_;  /*! \brief Number of data */ 
-        - data_size_t num_data_;  /*! \brief Pointer of label */
-        - const label_t* label_;  /*! \brief Pointer of weights */
-        - const label_t* weights_;  /*! \brief Query boundries */
-        - const data_size_t* query_boundaries_;
+        - data_size_t num_data_;  
+        - const label_t* label_;  /*! \brief Pointer of label */
+        - const label_t* weights_; /*! \brief Pointer of weights */
+        - const data_size_t* query_boundaries_; /*! \brief Query boundries */
 
 * LambdarankNDCG Class: class LambdarankNDCG : public RankingObjective {}
     - public methods
@@ -206,4 +205,167 @@ And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Iteration:100, valid_1 ndcg@5 : 0.419104
 [LightGBM] [Info] 0.250646 seconds elapsed, finished iteration 100
 [LightGBM] [Info] Finished training
+```
+## LambdaRank--GetGradientsForOneQuery相关变量详解
+NDCG=DCG/MaxDCG
+
+<!-- |  LightGBM   | PTranking  | xx|
+|  ----  | ----  |----|
+| inverse_max_dcg  | batch_std_diffs | # standard pairwise differences, i.e., S_{ij} |
+| 单元格  | batch_pred_s_ij | # computing pairwise differences, i.e., s_i - s_j |
+| 单元格  | batch_delta_ndcg |
+| 单元格  | batch_loss = torch.sum((batch_loss_1st + batch_loss_2nd) * batch_delta_ndcg * 0.5)  |
+| 单元格  | pair_row_inds |
+| 单元格  | pair_col_inds | -->
+>  Function Parameter
+|  LightGBM | Type |Description |
+|  ----  | ----  |  ----  |
+| query_id | data_size_t(int32) | each query group's max dcg |
+| cnt | double | current query group's max dcg |
+| label| label_t* (float*)| get sorted indices for scores |
+| score | double* | each query group's max dcg |
+| lambdas | score_t* (float*) | current query group's max dcg |
+| hessians| score_t* (float*) | get sorted indices for scores |
+
+
+
+> Initializing Variables
+
+|  LightGBM | Type |Description |
+|  ----  | ----  |  ----  |
+| inverse_max_dcg_ | array | each query group's max dcg |
+| inverse_max_dcg | double | current query group's max dcg |
+| sorted_idx[]| int array | get sorted indices for scores |
+
+> Get best and worst score
+
+||||
+|  ----  | ----  |  ----  |  ----  |
+| best_score | double | = score[sorted_idx[0]] |get best score |
+| worst_idx |int| = cnt - 1 | current group last index |
+| worst_score | double | = score[sorted_idx[worst_idx]] |get worst score|
+|sum_lambdas|double|=0|initializing sum_lambdas|
+
+> start accmulate lambdas by pairs
+```
+  for (data_size_t i = 0; i < cnt; ++i) {
+```
+|high|data_size_t(int32)|=sorted_idx[i]|
+|high_score|double|=score[high]|?|
+
+||||
+|  ----  | ----  |  ----  |
+| high_label| int | static_cast<int>(label[high]) |
+| high_label_gain| double | =label_gain_[high_label]; |
+| high_discount| double | =DCGCalculator::GetDiscount(i) |
+| high_sum_lambda| double | = 0.0 |
+| high_sum_hessian| double | = 0.0 |
+```
+    for (data_size_t j = 0; j < cnt; ++j) {
+```
+||||
+|  ----  | ----  |  ----  |
+| low| data_size_t(int32) | = sorted_idx[j]|
+| low_label| int | = static_cast<int>(label[low]) |
+|low_score|double|= score[low]|
+
+> only consider pair with different label
+
+||||
+| delta_score | double | = high_score - low_score |
+| low_label_gain|  double | = label_gain_[low_label] |
+| low_discount|  double | = DCGCalculator::GetDiscount(j) |
+
+||||
+|  ----  | ----  |  ----  |
+| dcg_gap  | double | = high_label_gain - low_label_gain |get dcg gap |
+| paired_discount | double | = fabs(high_discount - low_discount) | get discount of this pair |
+| delta_pair_NDCG | double | = dcg_gap * paired_discount * inverse_max_dcg |get delta NDCG |
+
+> regular the delta_pair_NDCG by score distance
+
+```
+        if (norm_ && best_score != worst_score) {
+          delta_pair_NDCG /= (0.01f + fabs(delta_score));
+        }
+```
+
+> calculate lambda for this pair
+
+||||
+|  ----  | ----  |  ----  |
+|  p_lambda  | double | = GetSigmoid(delta_score) |calculate lambda for this pair  |
+|  p_hessian  | double| = p_lambda * (1.0f - p_lambda)|calculate lambda for this pair  |
+|  sum_lambdas  | double | -= 2 * p_lambda |lambda is negative, so use minus to accumulate  |
+
+> update lambda
+
+```
+        // calculate lambda for this pair
+        double p_lambda = GetSigmoid(delta_score);
+        double p_hessian = p_lambda * (1.0f - p_lambda);
+        // update
+        p_lambda *= -sigmoid_ * delta_pair_NDCG;
+        p_hessian *= sigmoid_ * sigmoid_ * delta_pair_NDCG;
+        high_sum_lambda += p_lambda;
+        high_sum_hessian += p_hessian;
+        lambdas[low] -= static_cast<score_t>(p_lambda);
+        hessians[low] += static_cast<score_t>(p_hessian);
+        // lambda is negative, so use minus to accumulate
+        sum_lambdas -= 2 * p_lambda;
+
+```
+||||
+|  ----  | ----  |  ----  |
+|lambdas[low]|x|x|
+|hessians[low]|x|x|
+| norm_factor | double |std::log2(1 + sum_lambdas) / sum_lambdas|
+|  lambdas[]  | x  |
+|  hessians[]  | x  |
+
+> after for loop (j) update
+```
+      // update
+      lambdas[high] += static_cast<score_t>(high_sum_lambda);
+      hessians[high] += static_cast<score_t>(high_sum_hessian);
+```
+||||
+|  ----  | ----  |  ----  |
+|lambdas[high]|score_t(float)|x|
+|hessians[high]|score_t(float)|x|
+
+> after for loop (i) 
+||||
+|  ----  | ----  |  ----  |
+| norm_factor | double |std::log2(1 + sum_lambdas) / sum_lambdas|
+|  lambdas[]  | x  |
+|  hessians[]  | x  |
+
+```
+    if (norm_ && sum_lambdas > 0) {
+      double norm_factor = std::log2(1 + sum_lambdas) / sum_lambdas;
+      for (data_size_t i = 0; i < cnt; ++i) {
+        lambdas[i] = static_cast<score_t>(lambdas[i] * norm_factor);
+        hessians[i] = static_cast<score_t>(hessians[i] * norm_factor);
+      }
+    }
+```
+
+
+
+LightGBM-LambdaRank
+```
+- metadata
+    - num_data_: Number of training data rows.(rank.train)
+```
+
+
+
+PTranking-LambdaRank
+```
+#- gradient -#
+batch_grad = sigma * (0.5 * (1 - batch_std_Sij) - reciprocal_1_add_exp_sigma(batch_pred_s_ij, sigma=sigma))
+batch_grad = batch_grad * batch_delta_ndcg
+batch_grad = torch.sum(batch_grad, dim=1, keepdim=True) # relying on the symmetric property, i-th row-sum corresponding to the cumulative gradient w.r.t. i-th document.
+ctx.save_for_backward(batch_grad)
 ```

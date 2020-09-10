@@ -1,0 +1,302 @@
+[
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/main.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/main.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/main.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/application/application.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/application/application.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/application/application.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/boosting/boosting.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/boosting.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/boosting.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/boosting/gbdt.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/boosting/gbdt_model_text.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_model_text.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_model_text.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/boosting/gbdt_prediction.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_prediction.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_prediction.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/boosting/prediction_early_stop.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/prediction_early_stop.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/prediction_early_stop.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/bin.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/bin.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/bin.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/config.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/config_auto.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config_auto.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config_auto.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/dataset.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/dataset_loader.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset_loader.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset_loader.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/file_io.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/file_io.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/file_io.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/json11.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/json11.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/json11.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/metadata.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/metadata.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/metadata.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/parser.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/parser.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/parser.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/io/tree.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/tree.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/tree.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/metric/dcg_calculator.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/dcg_calculator.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/dcg_calculator.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/metric/metric.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/metric.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/metric.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/network/linker_topo.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linker_topo.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linker_topo.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/network/linkers_mpi.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_mpi.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_mpi.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/network/linkers_socket.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_socket.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_socket.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/network/network.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/network.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/network.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/objective/objective_function.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/objective/objective_function.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/objective/objective_function.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/data_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/data_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/data_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/feature_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/feature_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/feature_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/gpu_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/gpu_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/gpu_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/serial_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/serial_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/serial_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Xclang -fopenmp -o CMakeFiles/lightgbm.dir/src/treelearner/voting_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/voting_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/voting_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/application/application.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/application/application.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/application/application.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/boosting/boosting.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/boosting.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/boosting.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/boosting/gbdt.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/boosting/gbdt_model_text.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_model_text.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_model_text.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/boosting/gbdt_prediction.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_prediction.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/gbdt_prediction.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/boosting/prediction_early_stop.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/prediction_early_stop.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/boosting/prediction_early_stop.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/bin.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/bin.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/bin.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/config.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/config_auto.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config_auto.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/config_auto.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/dataset.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/dataset_loader.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset_loader.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/dataset_loader.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/file_io.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/file_io.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/file_io.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/json11.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/json11.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/json11.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/metadata.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/metadata.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/metadata.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/parser.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/parser.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/parser.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/io/tree.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/tree.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/io/tree.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/metric/dcg_calculator.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/dcg_calculator.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/dcg_calculator.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/metric/metric.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/metric.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/metric/metric.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/network/linker_topo.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linker_topo.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linker_topo.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/network/linkers_mpi.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_mpi.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_mpi.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/network/linkers_socket.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_socket.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/linkers_socket.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/network/network.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/network.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/network/network.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/objective/objective_function.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/objective/objective_function.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/objective/objective_function.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/data_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/data_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/data_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/feature_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/feature_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/feature_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/gpu_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/gpu_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/gpu_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/serial_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/serial_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/serial_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/treelearner/voting_parallel_tree_learner.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/voting_parallel_tree_learner.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/treelearner/voting_parallel_tree_learner.cpp"
+},
+{
+  "directory": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DMM_MALLOC -DMM_PREFETCH -DUSE_SOCKET -D_lightgbm_EXPORTS -I/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/include -isystem /usr/local/include  -Xclang -fopenmp -std=c++11 -pthread -Wextra -Wall -Wno-ignored-attributes -Wno-unknown-pragmas -Wno-return-type -O3 -fPIC -funroll-loops -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC -Xclang -fopenmp -o CMakeFiles/_lightgbm.dir/src/c_api.cpp.o -c /Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/c_api.cpp",
+  "file": "/Users/kou2n/Projects/ptranking.github.io/tutorial/LightGBM/src/c_api.cpp"
+}
+]
