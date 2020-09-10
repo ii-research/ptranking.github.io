@@ -358,3 +358,12 @@ And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] 0.250646 seconds elapsed, finished iteration 100
 [LightGBM] [Info] Finished training
 ```
+
+# Next Step
+> LightGBM framework work flow
+
+> analysis binary_objective.hpp
+
+> training data flow
+
+> ...
