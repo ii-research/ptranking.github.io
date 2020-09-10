@@ -153,18 +153,10 @@ The task is focused on analyzing the source code here.
 ## LambdaRank--GetGradientsForOneQuery related variables
 NDCG=DCG/MaxDCG
 
-<!-- |  LightGBM   | PTranking  | xx|
-|  ----  | ----  |----|
-| inverse_max_dcg  | batch_std_diffs | # standard pairwise differences, i.e., S_{ij} |
-| 单元格  | batch_pred_s_ij | # computing pairwise differences, i.e., s_i - s_j |
-| 单元格  | batch_delta_ndcg |
-| 单元格  | batch_loss = torch.sum((batch_loss_1st + batch_loss_2nd) * batch_delta_ndcg * 0.5)  |
-| 单元格  | pair_row_inds |
-| 单元格  | pair_col_inds | -->
->  Function Parameter
+> Function Parameter
 
 |  LightGBM | Type |Description |
-|  ----  | ----  |  ----  |----|
+|  ----  | ----  |  ----  |
 | query_id | data_size_t(int32) | current query id |
 | cnt | double | current query group's count |
 | label| label_t* (float*)| pinter of label |
