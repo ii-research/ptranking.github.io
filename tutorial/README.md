@@ -158,7 +158,7 @@ NDCG=DCG/MaxDCG
 |  LightGBM | Type |Description |
 |  ----  | ----  |  ----  |
 | query_id | data_size_t(int32) | current query id |
-| cnt | double | current query group's count |
+| cnt | data_size_t(int32) | current query group's count |
 | label| label_t* (float*)| pinter of label |
 | score | double* | pointer of score |
 | lambdas | score_t* (float*) | pointer of lambdas |
