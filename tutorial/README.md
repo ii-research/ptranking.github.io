@@ -150,7 +150,7 @@ The task is focused on analyzing the source code here.
         - double max_sigmoid_input_ = 50;  /*! \brief Maximal input of sigmoid table */
         - double sigmoid_table_idx_factor_;  /*! \brief Factor that covert score to bin in sigmoid table */
 
-## LambdaRank--GetGradientsForOneQuery相关变量详解
+## LambdaRank--GetGradientsForOneQuery related variables
 NDCG=DCG/MaxDCG
 
 <!-- |  LightGBM   | PTranking  | xx|
@@ -189,20 +189,22 @@ NDCG=DCG/MaxDCG
 | best_score | double | = score[sorted_idx[0]] |get best score |
 | worst_idx |int| = cnt - 1 | current group last index |
 | worst_score | double | = score[sorted_idx[worst_idx]] |get worst score|
-|sum_lambdas|double|=0|initializing sum_lambdas|
+|sum_lambdas|double| = 0.0|initializing sum_lambdas|
 
 > Start accmulate lambdas by pairs
+
 ```
 for (data_size_t i = 0; i < cnt; ++i) {
 ```
+> Initialize the associated variable
 
 |  LightGBM | Type | Expression| Description |
 |  ----  | ----  |  ----  |  ----  |
-|high|data_size_t(int32)|=sorted_idx[i]|
-|high_score|double|=score[high]|?|
-| high_label| int | static_cast<int>(label[high]) |
-| high_label_gain| double | =label_gain_[high_label]; |
-| high_discount| double | =DCGCalculator::GetDiscount(i) |
+|high|data_size_t(int32)| = sorted_idx[i]|
+|high_score|double| = score[high]||
+| high_label| int | = static_cast<int>(label[high]) |
+| high_label_gain| double | = label_gain_[high_label]; |
+| high_discount| double | = DCGCalculator::GetDiscount(i) |
 | high_sum_lambda| double | = 0.0 |
 | high_sum_hessian| double | = 0.0 |
 ```
@@ -220,8 +222,10 @@ for (data_size_t i = 0; i < cnt; ++i) {
           continue;
         }
 ```
-
-
+kMinScore is negative infinity.
+```
+const score_t kMinScore = -std::numeric_limits<score_t>::infinity();
+```
 
 |  LightGBM | Type | Expression| Description |
 |  ----  | ----  |  ----  |  ----  |
@@ -229,13 +233,16 @@ for (data_size_t i = 0; i < cnt; ++i) {
 | low_label_gain|  double | = label_gain_[low_label] |
 | low_discount|  double | = DCGCalculator::GetDiscount(j) |
 
+
+>> calculate dcg_gap, paired_discount and delta_pair_NDCG
+
 |  LightGBM | Type | Expression| Description |
 |  ----  | ----  |  ----  |  ----  |
 | dcg_gap  | double | = high_label_gain - low_label_gain |get dcg gap |
 | paired_discount | double | = fabs(high_discount - low_discount) | get discount of this pair |
 | delta_pair_NDCG | double | = dcg_gap * paired_discount * inverse_max_dcg |get delta NDCG |
 
-> regular the delta_pair_NDCG by score distance
+>> regular the delta_pair_NDCG by score distance
 
 ```
         if (norm_ && best_score != worst_score) {
@@ -243,7 +250,7 @@ for (data_size_t i = 0; i < cnt; ++i) {
         }
 ```
 
-> calculate lambda for this pair
+>> calculate lambda for this pair
 
 |  LightGBM | Type | Expression| Description |
 |  ----  | ----  |  ----  |  ----  |
